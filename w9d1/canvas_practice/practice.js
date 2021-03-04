@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function(){
   ctx.fillRect(2, 2, 496, 496);
 
   ctx.beginPath();
-  ctx.arc(250, 250, 175, 0, 2*3.1415);
+  ctx.arc(100, 333, 30, 0, 2*3.1415);
   ctx.strokeStyle = "purple";
-  ctx.lineWidth = 7;
+  ctx.lineWidth = 20;
   ctx.stroke();
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "red";
   ctx.fill();
 
 });
